@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="USER PROFILE" >
+        <EditTextPreference
+            android:key="prefPassword"
+            android:summary="Set Your App Access Password"
+            android:title="Set Password"
+            android:defaultValue="1234" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="PREFERENCES" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefSMS"
+            android:summary="Notify Selected Contacts via SMS | May use User SMS Charges"
+            android:title="Notify via SMS" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefMMS"
+            android:summary="Notify Selected Contacts via MMS | May use User MMS Charges and Cellular Data"
+            android:title="Notify via MMS" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefEmail"
+            android:summary="Notify Selected Contacts via Email | May use Cellular Data"
+            android:title="Notify via Email" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefData"
+            android:summary="May be Chargeable if you don't have a Data Pack"
+            android:title="Use Cellular Data?" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#d1d1d1">
+        
+    <RelativeLayout
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:background="#D1D1D1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="@android:drawable/editbox_background"
+            android:text="HI"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="125dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#045fb4"
+            android:text="Get Started"
+            android:textColor="#000000" />
+        
+    </RelativeLayout>    
+        
+
+    </ScrollView>
+    
